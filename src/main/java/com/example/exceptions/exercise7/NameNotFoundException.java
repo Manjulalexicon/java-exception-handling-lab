@@ -1,4 +1,7 @@
 package com.example.exceptions.exercise7;
 
-public class NameNotFoundException {
+public class NameNotFoundException extends Exception {
+    public NameNotFoundException(String message) {
+        super(message);
+    }
 }
